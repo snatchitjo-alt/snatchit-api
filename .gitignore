@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets — NEVER commit these
+.env
+*.json
+
+# macOS
+.DS_Store
+
+# Uploaded user files (store in cloud storage in production)
+static/uploads/*
+!static/uploads/.gitkeep
